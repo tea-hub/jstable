@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+
+    $(function () {
+      $("#headerDiv").load("http://localhost:5500/header.html");
+      $("#footerDiv").load("http://localhost:5500/footer.html");
+      $("#sideMenuDiv").load("http://localhost:5500/side_menu.html");
+    });
+    
+  </script>
+  <title>design today</title>
+  <link rel="stylesheet" href="./styles.css" type="text/css" />
+</head>
+
+<body>
+
+  <!-- header -->
+  <div id="headerDiv"></div>
+  <!-- end header -->
+
+  <!-- side menu -->
+  <div id="sideMenuDiv"></div>
+  <!-- end side menu -->
+
+  <!-- page content -->
+  <nav class="navlist">
+    <ul>
+      <li><a href="#all">All</a></li>
+      <li> <a href="#webdesign">Web design</a></li>
+      <li><a href="#3d">3D</a></li>
+      <li><a href="#appdesign">App design</a></li>
+      <li><a href="#animation">Animation</a></li>
+      <li><a href="#illustration">Illustration</a></li>
+      <li><a href="#Typography">Typography</a></li>
+    </ul>
+  </nav>
+
+  <div class="row" class="pictext">
+    <div class="card">
+      <img class="card-pic" src="./images/Rectangle 45.svg" />
+      <p>UI Components for Unity Gaming</p>
+    </div>
+    <div class="card">
+      <img class="card-pic" src="./images/Rectangle 46.svg" />
+      <p> Analytics Mobile App – Blurr Series</p>
+    </div>
+    <div class="card">
+      <img class="card-pic" src="./images/Rectangle 47.png" />
+      <p>Estaro – Dark-mode – Task Management App</p>
+    </div>
+    <div class="card">
+      <img class="card-pic" src="./images/Rectangle 45.png" />
+      <p>Live streaming application for gamers.</p>
+    </div>
+    <div class="card">
+      <img class="card-pic" src="./images/Rectangle 46.png" />
+      <p>Dark Mockup for Unity Gaming</p>
+    </div>
+    <div class="card">
+      <img src="./images/Rectangle 47.svg" />
+      <p>SMM – Social Media Management – App UI</p>
+    </div>
+    <button class="more">Load More</button>
+  </div>
+
+  <section class="lowercontent">
+    <h1 class="topde">Top Designers</h1>
+    <div class="design">
+      <div class=d1>
+        <img src="./images/Rectangle 65.png" />
+        <p>Tran Mau <br /> Tri Tam </p>
+        <p class="low">Sai Gon, Vietnam</p>
+        <button>Follow</button>
+      </div>
+      <div class=d1>
+        <img src="./images/Rectangle 69.png" />
+        <p>Ghulam <br /> Rasool</p>
+        <p class="low">Dubai</p>
+        <button>Follow</button>
+      </div>
+      <div class=d1>
+        <img src="./images/Rectangle 66.png" />
+        <p>Zhenya <br /> Rynzhuk</p>
+        <p class="low">New York City NY</p>
+        <button>Follow</button>
+      </div>
+      <div class=d1>
+        <img src="./images/Rectangle 70.png" />
+        <p>Ghani <br /> Pradita</p>
+        <p class="low"> Yogyakarta, Indonesia</p>
+        <button>Follow</button>
+      </div>
+      <div class=d1>
+        <img src="./images/Rectangle 67.png" />
+        <p>Sajon</p>
+        <p class="low">Earth</p>
+        <button>Following</button>
+      </div>
+      <div class=d1>
+        <img src="./images/Rectangle 71.png" />
+        <p>David <br /> Kovalev</p>
+        <p class="low">Sarasota, FL</p>
+        <button>Follow</button>
+      </div>
+      <div class=d1>
+        <img src="./images/Rectangle 68.png" />
+        <p>Ryan<br /> Putnam</p>
+        <p class="low">Colorado Springs</p>
+        <button>Follow</button>
+      </div>
+      <div class=d1>
+        <img src="./images/Rectangle 72.png" />
+        <p>Dmitry<br /> Lauretsky</p>
+        <p class="low">Omsk, Russia</p>
+        <button>Follow</button>
+      </div>
+    </div>
+  </section>
+  <!-- end page content -->
+
+  <!-- footer -->
+  <div id="footerDiv"></div>
+  <!-- end footer -->
+
+</body>
+
+</html>

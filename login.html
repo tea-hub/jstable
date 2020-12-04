@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+
+    $(function () {
+      $("#headerDiv").load("http://localhost:5500/header.html");
+      $("#footerDiv").load("http://localhost:5500/footer.html");
+      $("#sideMenuDiv").load("http://localhost:5500/side_menu.html");
+    });
+
+  </script>
+  <title>design today</title>
+  <link rel="stylesheet" href="./styles.css" type="text/css" />
+</head>
+
+<body>
+
+  <!-- header -->
+  <div id="headerDiv"></div>
+  <!-- end header -->
+
+  <!-- side menu -->
+  <div id="sideMenuDiv"></div>
+  <!-- end side menu -->
+
+  <!-- page content -->
+  <div class="container">
+    <div class="row">
+      <div class="login-wrapper">
+        <div class="login-header">
+          Get Started
+        </div>
+        <div class="login-subtext">
+          <p> Already have an account? <a style="text-decoration: underline; color: black">Sign in</a></p>
+        </div>
+        <br />
+        <br />
+        <div class="login-inputs">
+          <span>Name </span><input type="text" class="login-name-field">
+          <hr class="thinline_darker" />
+          <br />
+          <br />
+          <p class="selected-field">Email </p>
+          <span style="color: black">example@gmail.com</span>
+          <hr class="thinline_darker" />
+          <br />
+          <br />
+          <span>Country </span>
+          <svg style="float: right" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+            <g id="Group_78" data-name="Group 78" transform="translate(-756 -545)">
+              <rect id="Rectangle_154" data-name="Rectangle 154" width="18" height="18" transform="translate(756 545)"
+                fill="rgba(255,255,255,0)" />
+              <path id="Arrow_-_Down_2" data-name="Arrow - Down 2"
+                d="M4.211,7.691a.776.776,0,0,1,.938-.063l.081.063L11,12.924l5.771-5.232a.776.776,0,0,1,.938-.063l.081.063a.609.609,0,0,1,.07.85l-.07.073-6.28,5.694a.776.776,0,0,1-.938.063l-.081-.063L4.211,8.615A.611.611,0,0,1,4.211,7.691Z"
+                transform="translate(754 543)" fill="#afafaf" />
+            </g>
+          </svg>
+
+          <hr class="thinline_darker" />
+          <br />
+          <br />
+        </div>
+        <div class="login-button">
+          <button class="login-btn">Sign up</button>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="login-footer">
+          <span>By signing up, I agree to the <u>Terms of Service</u>
+            And <u>Privacy Policy</u></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="login_img">
+        <img class="login_img_background" src="images/login_img.png" />
+      </div>
+    </div>
+  </div>
+  <!-- end page content -->
+
+  <!-- footer -->
+  <div id="footerDiv"></div>
+  <!-- end footer -->
+
+</body>
+
+</html>
